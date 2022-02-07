@@ -16,7 +16,7 @@ def main():
         "First Name: ", record[1], '\n', 
         "Last Name: ", record[2], '\n',
         "Salary: ", '$', format(float(record[3]), ',.2f'), '\n',
-        "Bonus%: ", format(float(record[4]), '.0%'), "   Bonus$: ", '$', format(sal_bonus, ',.2f'),  '\n', 
+        "Bonus Percent: ", format(float(record[4]), '.0%'), "   Bonus Amount: ", '$', format(sal_bonus, ',.2f'),  '\n', 
         "Total Pay: ", '$', format(total_pay, ',.2f'), sep = '')
         input()
 
